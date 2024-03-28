@@ -1,0 +1,46 @@
+*
+{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.center{
+display: flex;
+max-width: 1366px;
+margin: 0 auto;
+padding:0 2%;
+flex-wrap: wrap;
+background-color: rgb(34, 30, 30);
+}
+header{
+padding: 20px 0;
+background-color: rgb(58, 48, 48);
+}
+.logo{
+width: 90%;
+padding: 16px 0;
+
+}
+.menu {
+width: 50%;
+text-align: right;
+padding: 16px 0;
+}
+.menu a{
+color: rgb(2, 2, 2);
+
+text-decoration:none
+padding: 16px 0;
+
+h4{
+    color: rgb(0, 0, 0);
+}
+.center img{
+    height: 180px;
+    display:flex;
+}
+h1{
+    font: arial;
+}
+h3{
+    font-size: 26px;
+}
